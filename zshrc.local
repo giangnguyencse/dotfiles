@@ -1,5 +1,7 @@
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
-export EDITOR=vim
+export PATH=/usr/local/bin:$PATH
+export PATH="$PATH:/usr/local/Cellar/vim/7.4.2290/bin/vim"
+export EDITOR="vim"
 [[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 source ~/.bin/tmuxinator.zsh
